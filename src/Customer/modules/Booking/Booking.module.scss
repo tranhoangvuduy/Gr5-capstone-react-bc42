@@ -1,0 +1,17 @@
+.seat
+{
+        width: 35px !important;
+        border: none !important;
+        cursor: pointer;
+        height: 35px !important;
+        margin: 5px;
+        min-width: unset;
+        border-radius: 5px;
+        background-color: rgb(233, 233, 233);
+}
+.seat.full{
+        background: red;
+}
+.seat.empty {
+        background: #0dcae9
+}

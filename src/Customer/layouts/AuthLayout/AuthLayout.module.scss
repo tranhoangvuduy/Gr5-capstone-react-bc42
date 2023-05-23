@@ -1,0 +1,21 @@
+.background
+{
+    min-height: calc(100vh - 100px);
+    background-image: url(../../../../public/img/authBack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container
+{
+    display: flex;
+   justify-content: center;
+}
+.box
+{
+    margin-top: 100px;
+    border-radius: 8px;
+    width: 500px;
+    padding: 30px;
+    background-color: white;
+}
